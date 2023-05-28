@@ -1,0 +1,30 @@
+ACCESIBILIDAD
+  El módulo 3 nos comenta sobre la accesibilidad en los navegadores, ya que el poder de la web está en el acceso libre entonces todas los usuarios deberían poder usarla sin ningún inconveniente.
+  LECTORES DE PANTALLA:
+    - Se encuentran integrados en la mayoría de navegadores.
+    - El problema viene cuando la página en la que se quiere usar el lector lleve elementos que no tengan configurado parametros para poder ser interpretados por el lector.
+    Herramientas clave: JAWS y NVDA en Windows, VoiceOver en iOS y MacOS.
+
+  ZOOM:
+    - Para personas con discapacidades visuales, el más básico es el zoom estático (Ctrl + +)
+    Herramientas clave: Lupa (Microsoft), Zoomtext, Zoom (macOS y iOS)
+
+  Herramientas de comprobación de contraste:
+    -W3C estableció un sistema de clasificación para el contraste de colores
+    Herramientas de generación de paletas: Adobe Color, Color Safe.
+    Herramientas de comprobación del cumplimiento:
+      Extensiones: WCAG Color contrast checker (Edge), WCAG Contrast checker (Firefox), Colour contrast Checker (Chrome)
+  
+  LIGHTOUSE:
+    Herramienta de google para el análisis de sitios web respecto al nivel de accesibilidad de estos
+
+  VÍNCULOS ACCESIBLES:
+    Los componentes más comunes son los vínculos  y las imágenes, se debe garantizar texto alternativo y de vínculo.
+    Texto del vínculo: 
+      Considerando el lector de pantalla, no sería buena idea colocar una URL directamente sino asignar a esta un texto alternativo, para esto debemos de conocer los atributos ARIA
+    Texto alternativo para imágenes:
+      Existe un atributo que se llama "alt" en etiquetas HTML
+  ACCESIBILIDAD EN EL DISEÑO:
+    - Tener en cuenta la funcionalidad de las etiquetas y usarlas de acuerdo a ello.
+    - Procurar buenas indicaciones visuales.
+    - Tener en cuenta el teclado y la distribución de elementos interactivos.
