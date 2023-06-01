@@ -1,0 +1,18 @@
+Razor pages:
+  Es un modelo de programación centrado en páginas desde el lado del servidor para su creación con
+  ASP.NET Core. Sus ventajas son:
+  - Sencilla instalación de aplicaciones web dinámicas con HTML, CSS y C#
+  - Archivos organizados por característica.
+  - Combina el marcado de código de C# del lado del servidor mediante la sintaxis Razor.
+  SEPARACIÓN DE INTERESES:
+    Separa interes con PageModel de C# -> encapsula propiedades de datos y operaciones lógicas definiendo controladores de páginas para solicitudes HTTP.
+    PageModel es una clase parcial, se encuentra en la carpeta Pages
+  CUANDO USAR RAZOR PAGES:
+    - Cuando se quiera generar una interfaz de usuario web dinámica.
+    - Prefiera un enfoque centrado en Páginas.
+    - Reducir la duplicación de vistas parciales.
+  ESTRUCTURA DE RAZOR PAGES:
+    - Pages/: Razor pages y archivos auxiliares, cada página tiene un archivo .cshtml y un archivo de clase .cshtml.cs
+    - wwwroot/: Contiene archivos con recursos estáticos, como HTML, JavaScript y CSS
+    - ContosoPizza.csproj/: Contiene los metadatos de configuración del proyecto, como las dependencias.
+    - Program.cs: Actúa como punto de entrada de la aplicación y configura el comportamiento de la aplicación, como el enrutamiento
