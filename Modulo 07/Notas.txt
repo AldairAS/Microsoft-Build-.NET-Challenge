@@ -1,0 +1,64 @@
+El modulo habla sobre la introducción a .NET
+  ¿Qué es .NET?
+    Primero debemos de contextualizar, en este caso se abordará como un ecosistema ya que es una colección de muchos elementos y personas para la creación de un entorno eficaz para la compilación de aplicaciones.
+
+  .NET como ecosistema para el desarrollo de aplicaciones
+    Entendemos como ecosistema las múltiples facetas de un entorno de desarrollo de aplicaciones y la comunidad que lo rodea.
+
+    Uso de lenguajes y compiladores de .NET para ejecutar aplicaciones en el entorno de ejecución de .NET
+      .NET soporta lenguajes como C# y F# cada línea expresa una instrucción.
+      Antes de ejecutar el código este debe ser compilado, el compilador de .NET convierte el código fuente  a un lenguaje intermetdio (IL), el compilador guarda este código en un archivo llamado ensamblado de .NET, el lenguaje intermedio es realizado para que la base pueda ser ejecutada independientemente del SO y de la arquitectura de software.
+
+    El lenguaje de programación C# NO ES .NET, ya que el primero es una sintaxis  de lenguaje de programación haciendo referencia y llamamiento a los métodos de las bibliotecas de .NET.
+
+    Uso de marcos de aplicaciones y bibliotecas de .NET para aprovechar la funcionalidad predefinida
+      El software se ejecute en distintos niveles de abstracción en un equipo ya que este se construye en capas.
+      - Nivel más bajo: Software que se comunica directamente con el hardware del equipo.
+      - Siguiente nivel: Permiso al usuario final proporcionar instrucciones a través de un SO.
+      - Siguiente nivel: Software como .NET permite el desarrollo y ejecución de aplicaciones sencillas.
+      - Siguiente nivel: Marcos de trabajo, bibliotecas de funcionalidad permiten la creación rápida de aplicaciones enriquecidas con menor esfuerzo.
+      La sección se enfoca en ese último nivel, una biblioteca de código encapsula la funcionalidad para un fin específico, son miles las bibliotecas disponibles para .NET.
+      Pueden ser propias o de terceros, comerciales o de código abierto. Para utitlizarlas se debe hacer referencia a estas.
+      Un marco de trabajo de aplicación combina varias bibliotecas relacionadas, junto con proyectos de inicio, plantillas de archivos, generadores de código y otras herramientas. Estos marcos de trabajo son conocidos como modelos de aplicación.
+
+      PRINCIPALES MODELOS DE APLICACIÓN PARA .NET.
+        web   ->  ASP.NET core    -> Marco para compilar lógica del lado del servidor.
+        web   ->  ASP.NET Core MVC-> Marco para compilar lógica del lado servidor para páginas web o API web.
+        web   ->  ASP.NET Core, Razor Pages -> Marco para compilar HTML generado por el servidor.
+        Cliente web -> Blazor     -> Forma parte de ASP.NET Core, permiten la manipulación del DOM a través de sockets.
+        Escritorio -> WinForms    -> Marco para compilar aplicaciones clásicas de estilo Windows.
+        Escritorio -> (WPF)       -> Ajustado para distintos factores de forma, permite la adjudicación de animaciones.
+        Movil  -> Xamarin         -> Permite a los desarrolladores de .NET compilar aplicaciones para dispositivos iOS y Android.
+      
+      herramientas de .NET para compilar aplicaciones de .NET.
+        Visual Studio 2022:
+          Entorno de desarrollo insignia de Microsoft.
+        Visual Studio Code:
+          Para desarrolladores que prefieran el uso de línea de comandos ya que puede ser combinado con el CLI de .NET.
+        Try .NET:
+          Usó de interfaz basada en el explorador para escribir aplicaciones sencillas que le ayudarán a conocer lenguaje de programación C#.
+      
+      Búsqueda de soluciones y respuestas en la documentación y los tutoriales.
+        Microsoft Learn       -> Tutoriales de inicio rápido y documentación de referencia definitiva.
+        Patrones y prácticas  -> Ayuda a desarrolladores y arquitectos de software.
+        Videos de .NET        -> Proporcionados por el equipo de .NET.
+        Microsoft Learn       -> Laboratorios prácticos que le ayudarán a desarrollar habilidades mediante una combinación de instrucciones, ejecicios, etc.
+      
+    ¿Cómo usar .NET?
+      Primero debemos elegir la serie de herramientas, el criterio dependerá del desarrollador.
+      Segundo se pasa a los requisitos, estos pueden definir el tipo de aplicacion (web, movil, Escritorio) En .NET tando en VS como en CLI de .NET se crea la aplicacion con una plantilla.
+      Tercero, se debe empezar a escribir la lógica de aplicación con las referencias necesarias para que el compilador logre ejecutar sus tareas sin algún percance.
+      Cuarto, compile la aplicación, con frecuencia ya que esto ayuda a determinar algún error suscitado.
+      Quinto, depuración de aplicación, con el fin de comprobar si existen errores en la aplicación, pueden establecerse puntos de interrupción  que pausan la aplicación y lograr el seguimiento del código
+      Sexto, distribuya la aplicación. Una vez finalizada la aplicación debe crear una versión para el lanzamiento de la compilación. En esta versión se debe quitar el código necesario, terminado puede ser ejecutada una versión de lanzamiento. Para ejecutar esta versión de lanzamiento debe instalar un entorno de ejecución .NET en el equipo de destino.
+    
+    .NET en tiempo de ejecución.
+      El entorno funciona como una burbuja, entonces se administran recursos, se buscan los flujos de información y se gestionan, protege al etuipo de tener intenciones malintencionadas.
+  
+  Cuando se debe utilizar .NET
+    - Sirve para proyectos grandes y pequeños.
+    - Elegirlo cuando la productividad sea importante.
+    - Para aplicaciones de escala empresarial.
+    - Para prototipos, startups y aplicaciones a pequeña escala.
+    - Para aplicaciones de IA y en la nube.
+    - .NET para compilar aplicaciones de IoT
