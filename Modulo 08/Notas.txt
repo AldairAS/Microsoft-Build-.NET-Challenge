@@ -1,0 +1,47 @@
+Objetivos del modulo:
+  - Inicializar proyectos en .NET.
+  - Agregar y eliminar paquetes de un proyecto en .NET
+  - Administrar dependencias de paquete y actualizarlas de forma predecible.
+
+Nuget como administrador de paquetes:
+  Puede usarse NuGet como administrador de paquetes, las dependencias son biblioteca de terceros (código reutilizable), entonces la aplicación DEPENDE de esa biblioteca para funcionar.
+
+Determinación de la necesidad de un paquete:
+  - Obtención de código mejor: Dependiendo de lo que se quiera realizar debemos de tener en cuenta esto, para no escribir la biblioteca personalmente ya que debemos de considerar muchísimos casos.
+  - Ahorro de tiempo: Lleva tiempo escribir bibliotecas que ya fueron escritas, por lo tanto este debería utilizarse de mejor manera en seguir con el desarrollo de la aplicación como tal.
+  - Mantenimiento: Agregar características, corregir errores es algo que tarde o temprano pasa por lo tanto el mantenimiento de bibliotecas suele ser el adecuado.
+
+Evaluación de un paquete:
+  - Tamaño
+  - Licencias
+  - Mantenimiento activo
+
+Instalación de un paquete:
+  Puede hacerse de dos maneras: VS o linea de comandos. Para línea de comandos puede usarse el siguiente:
+    dotnet add package <name of package>
+
+Búsqueda de un paquete:
+  Pueden encontrarse en lugares muy diferentes, algunos de estos son:
+  - Registros: Registro global como el de NuGet.Org. Tambien pueden ser públicos y privados subidos a github o azure DevOps
+  - Archivos: Instalación desde una carpeta local, esto se hace habitualmente cuando se quieren desarrollar carpeta propias.
+
+Registro de NuGet y herramienta dotNet
+  Al ejecutar el código de añadir paquete, .NET se dirige a un registro global denominado NuGet.org .
+
+Comando .NET
+  pueden dividirse en:
+  - Administración de dependencias.
+  - Ejecución del programa.
+  - Creación y publicación de paquetes.
+  Para explorar todos los comandos utilice: dotnet --help
+
+Despues de la Instalación
+  - Para ver los paquetes: min->dotnet list package max->dotnet list package --include-transitive
+  - Restauración de dependencias: dotnet restore, no suele ser necesario ya que esto se encuentra automatizado en muchos entornos.
+  - Limpieza de dependencias: dotnet remove package <name of dependency> -> quita el paquete del nombre especificado del proyecto
+
+
+CREACIÓN DE UN PROYECTO .NET:
+  dotnet new console -f net6.0.
+  dotnet add package Humanizer --version 2.7.9 -> añade el paquete Humanizer especificando la versión de este
+  dotnet list package --outdated -> muestra los paquetes obsoletos
