@@ -1,0 +1,7 @@
+Depurador:
+  Es una herramienta de software que se usa para observar y controlar el flujo de ejecución de un programa desde una perspectiva analítica. Tiene por objetivo detectar la causa principal del error y ayudar a resolverlo, hospeda la ejecución y realiza un proceso independiente.
+
+Importancia del uso de un depurador:
+  La principal ventaja es el ver como se ejecuta el programa, los dos principales son:
+  - Ejecución del programa que ve tarea por tarea y como afecta al estado del programa.
+  - Observación del estado del programa, examinando el estado de las variables durante la ejecución del código
