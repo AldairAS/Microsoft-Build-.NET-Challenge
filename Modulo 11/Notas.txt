@@ -1,0 +1,39 @@
+Basicamente Blazor:
+  Es un marco de interfaz de usuario para .NET.
+
+Razor:
+  Es un formato para generar contenido basado en texto como html, tienen extensión cshtml p razor, combina código C# con html
+
+Blazor:
+  Las aplicaciones creadas en blazor pueden ejecutarse en un servidor como parte de una aplicación ASP.NET o implementarse para que se ejecuten en una máquina del usuario de manera similar a una aplicación de página única.
+
+Blazor Server:
+  Es una implementación del marco de interfaz de usuario de Blazor. Genera HTML a medida que se solicita.
+
+WebAssembly de Blazor (Blazor WASM):
+  Al igual que blazor server, es una implementación del marco de interfaz de usuario de blazor. Se ejecuta en el entorno de ejecución de WebAssembly estándar de HTML5.
+  Ya que se ejecuta integramente en el explorador es posible implementar el modelo de aplicación Blazor mediante archivos que un servidor web no analiza y no interactúa, este enfoque reduce los requisitos de un servidor web y desplaza todo el procesamiento de la aplicación a la máquina del usuario.
+
+Creación de una aplicación con Blazor:
+  Las aplicacoine blazor se escriben con un editor de texto y se compilan con herramientas .NET. Podrá elegir donde se ejecuta la aplicación (Blazor server o WebAssembly de Blazor), puede usar plantillas.
+
+¿Qué son las páginas?
+  Creamos una página con Razor que presente el contenido en una pantalla.
+
+¿Qué son los componentes?
+  Para evitar reescribir todas las líneas de HTML pueden crearse componentes.
+
+¿Cuándo debe usarse Blazor?
+  Se deben tener en cuenta los siguientes criterios para decidir si usar blazor y el como será su ejecución:
+
+  1. Familiaridad con .NET:
+      Es necesario estar familiarizado con la creación de aplicaciones (web, escritorio, movil) ya que blazor requiere tiempo dedicado a .NET y C#.
+  2. Requisitos de integración:
+      Es sencillo integrar una aplicación con Blazor a proyectos ya creados con .NET o nuevos proyectos.
+  3. Servidores web existentes y configuración:
+      Al igual que el punto anterior es sencillo integrar una aplicación con blazor a un servidor existente con WebAssembly.
+  4. Complejidad de la aplicación:
+      Blazor puede ser util para muchos cálculos o ejecución en un clúster de máquinas con cargas ed trabajo dsitribuidas.
+      Para una aplicación sencilla no se verían las ventajas de Blazor.
+  5. Requisitos de red:
+      Para aplicaciones que requieran accesos desde lugares específicos y solo a usuarios definidos es recomendable hacer uso de Blazor server por las funcionalidades hospedades y aisladas del servidor web, puede proteger la aplicación con TLS.
