@@ -1,0 +1,6 @@
+Manejo de archivos y directorios
+  Para leer y enumerar directorios de nivel superior se usa la función:
+      Directory.EnumerateDirectories.
+  Para enumerar los archivos de un directorio puede ser usado la función
+      Directory.EnumerateFiles.
+  
