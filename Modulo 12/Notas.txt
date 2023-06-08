@@ -1,0 +1,10 @@
+Compilación de una aplicación web con Blazor
+  Objetivos:
+  - Configurar un entorno local para el desarrollo de Blazor con VSC.
+  - Crear un proyecto con Blazor
+  - Adición de un componente a una página de Blazor
+  - Actualizar la lógica en una aplicación web con blazor
+  - Información adicional sobre el control de eventos y el enlace de datos en componentes con Blazor.
+  - Uso del enrutamiento en una aplicación Blazor.
+
+  
