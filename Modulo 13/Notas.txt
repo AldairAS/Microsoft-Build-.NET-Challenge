@@ -1,0 +1,6 @@
+Interacción con datos en aplicaciones web Blazor:
+  Objetivos:
+  - Ensamblar una interfaz de usuario para una aplicación web mediante la creación de componentes Blazor.
+  - Acceder a los datos que se mostrarán en la aplicación web.
+  - Compartir datos en la aplicación web entre varios componentes de Blazor.
+  - Enlazar un elemento HTML a una variable de un componente de Blazor.
