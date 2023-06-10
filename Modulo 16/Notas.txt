@@ -1,0 +1,11 @@
+Compilación de componentes interactivos enriquecidos con aplicaciones web de Blazor
+  El módulo tratará sobre el manejo de JS en blazor, es decir interoperabilidad con código JavaScript, lo objetivos de módulo son:
+  - LLamar a funciones de JS desde .NET y visversa en aplicaciones de Blazor.
+  - Controlar el ciclo de vida de los componentes de Blazor.
+  - Crear componentes reutilizables que se puedan incorporar a aplicaciones Blazor Server mediante plantillas.
+  1. Para agregar código js debemos de usar la misma etiqueta HTML, <script>, los archivos js se colocarán en la carpeta wwwwroot del proyecto Blazor
+  Interactividad con ciclos de vida:
+    Los componentes en Blazor comienzan cuando se crean por primera vez y termina cuando se destruyen.
+  Render fragment
+    inserta el marcado de tiempo de ejecución de alguna plantilla que es un componente de Razor normal
+  
