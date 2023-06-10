@@ -1,0 +1,23 @@
+Uso de páginas, enrutamiento y diseños para mejorar la navegación de Blazor
+  Manejo del enrutamiento con la directiva @page, objetivos del módulo:
+  - Mejorar la navegación de la aplicación Blazor mediante el componente de enrutador y NavLinks
+  - Mejorar la funcionalidad con parámetros de ruta
+  - Recuperar el código duplicado mediante diseños en la aplicación Blazor.
+  Componente enrutador de Blazor:
+    Uso de plantillas de ruta:
+      El enrutamiento en blazor busca asegurar de que cada solicitud se envíe al mejor componente y de que el componente tiene toda la información que necesita para mostrar lo que el usuario quiere.
+    Uso de la directiva @Page:
+      Pueden usarse una o más rutas solo añadiendo más directivas @Page
+    Obtención de información de ubicación y navegación con NavigatorManager:
+      "@inject NavigationMananger NavMananger" puede manejar múltiple información 
+    Uso de componentes NavLink:
+      Uso del componente NavLink ya que este alterna CSS cuando una sección se encuentre activa
+      NavLink tiene dos atributos, Match: ("NavLinkMatch.All" Cuando su elemento href coincide con la dirección actualURl, "NavLinkMatch.Prefix" se activa cuando la primera parte del href coincide es decir puede servir para indicar al usuario en que sección de la página se ubica)
+  Exploración de cómo afectan los parámetros de ruta al enrutamiento de la aplicación Blazor:
+    Puede pasarse un parametró como la ruta de un componente, entonces deberíamos de tener restricciones para evitar algún inconveniente. Para ello existen una serie de tipos de restricción.
+    La forma de enviar un paramtro a la ruta es entre llaves como  {} y utilizar un comodin como {*<parametro>}
+  Creación de componentes de Blazor reutilizables mediante diseños:
+    Con el objetivo de evitar crear código innecesario.
+    Que son los diseños de Blazor:
+      Son componentes que evitan crear código repetitivo para componentes individuales.
+      
