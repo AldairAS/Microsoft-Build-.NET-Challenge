@@ -1,0 +1,6 @@
+Creación de componentes reutilizables con Blazor
+  Esto se puede hacer mediante el uso de bibiotecas de clases de Razor. Los oejtivos del módulo son:
+  - Presentación de un cuadro de diálogo modal con un tema predeterminado.
+  - Usar y personalizar el cuadro de diálogo modal en una aplicación Blazor.
+  - Empaquetar el cuadro de diálogo modal para utilizarlo en otras aplicaciones.
+  
