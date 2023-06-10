@@ -1,0 +1,11 @@
+Mejora en modo de funcionanmiento de formularios y validación en aplicaciones web de Blazor
+  El módulo tratará sobre los controladores de eventos de blazor y cómo usar la eficacia de los formularios de Blazor con la validación. los objetivos son:
+  - Mejorar la interactividad de la aplicación mediante controladores de eventos de Blazor.
+  - Usar formularios de Blazor para permitir la entrada de datos.
+  - Ampliar formularios de Blazor con validación del lado cliente y servidor.
+  C# a eventos de DOM con controladores de eventos.
+    Cada evento de marcado puede controlar muchos eventos, para captar un evento con C# debemos de escribir un método.
+    Al capturar un evento, puedes darle mas parámetros al método del evento como MouseEventArgs e (puede para saber si el usuario presionó dicha tecla).
+
+    La principal diferencia con JS es que un evento en blazor se ejecutará en el servidor, mientras que con JS se realiza del lado del cliente, por tanto lo mejor sería hacer este control en el explorador para evitar perdidas de rendimiento.
+    
