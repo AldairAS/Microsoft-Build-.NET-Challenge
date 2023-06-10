@@ -1,0 +1,2 @@
+Creación del juego conecta 4 con blazor
+  Se tocarán conceptos de módulos ya hechos teniendo como objetivo principal: Creación de un proyecto en VS2022 en la que se apliquen varios de los conceptos de la app
