@@ -1,0 +1,2 @@
+Externalización de la configuración de una aplicación ASP.NET mediante una instancia de Azure Key Vault
+	El ejercicio se realizó en un espacio aislado

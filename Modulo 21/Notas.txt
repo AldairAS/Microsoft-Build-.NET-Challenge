@@ -1,0 +1,12 @@
+Azure App Service es una plataforma altamente escalable que se puede usar para hospedar aplicaciones web. 
+Cada aplicación web se ejecuta en uno o más servidores web y App Service distribuye las solicitudes de los usuarios 
+entre estos servidores. A medida que el volumen de solicitudes varía con el tiempo, App Service escala horizontalmente 
+y reduce verticalmente, lo que incrementa y reduce el número de servidores disponibles. Esta estrategia de escalado 
+ayuda a garantizar que los tiempos de respuesta y los costos se mantengan en un nivel aceptable, a pesar de las 
+fluctuaciones de la carga de trabajo.
+
+El protocolo HTTP que usan las aplicaciones web es inherentemente sin estado. Muchas aplicaciones web necesitan mantener 
+la información de estado entre solicitudes para proporcionar algún contexto para esas solicitudes. Este contexto se 
+denomina sesión. Puede guardar la información de estado de una sesión de muchas maneras, pero algunas son más adecuadas 
+que otras. Lo que es adecuado depende del entorno en el que se ejecuta la aplicación web.
+

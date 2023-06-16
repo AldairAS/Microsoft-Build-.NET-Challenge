@@ -1,0 +1,5 @@
+Compilación de una API web con una API mínima, ASP.NET Core y .NET 
+  La forma de compilar la API puede diferir enormemente entre las pilas tecnológicas. A la hora de compilar una API, sabe que son muchas las partes que hay que tener en cuenta, como el almacenamiento de datos, la seguridad, el control de versiones y la documentación. Conseguir que todas estas partes funcionen puede ser una tarea compleja.
+  ¿Qué es una API mínima?
+    La creación de una API puede ser compleja, ya que debe admitir muchas características, como el enrutamiento, la lectura y la escritura en un almacenamiento de datos y la autenticación. Para ahorrar tiempo, comience con los marcos y las plantillas integrados en .NET, que ofrece muchas de las características que necesita. Sin embargo, esos marcos pueden requerir una configuración considerable hasta llegar a una API básica en funcionamiento. Con una API mínima para .NET 6, no es el caso. Puede empezar a trabajar con unas pocas líneas de código.
+    

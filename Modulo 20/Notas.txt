@@ -1,0 +1,8 @@
+Implementación del registro en una aplicación web de ASP.NET de .NET Framework
+  El módulo tiene por objetivo:
+  - Explicar la importancia del registro en una aplicación web comercial.
+  - Explicar el rol de las plataformas de registro de la actividad de aplicaciones.
+  - Implementar el registro de una aplicación web de ASP.NET para almacenar datos de registro en Azure Blob Storage e incorporar información de registro en datos de rendimiento de application insights.
+  El ejercicio se desarrolló en un espacio aislado.
+  ¿Que es el registro?
+    Sirve para mantener un historial del trabajo que realiza una aplicación
