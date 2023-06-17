@@ -1,0 +1,33 @@
+Uso de una base de datos con una API mínima, Entity Framework Core y ASP.NET Core
+  Objetivos:
+  - Obtenga  información  sobre como agregar Entity Framework Core a una aplicación de API mínima.
+  - Conservar los datos en un almacén de datos en memoria.
+  - Conservar los datos en una base de datos SQLite.
+  Creación de un prototipo:
+    Se tiene previsto compilar una aplicación front-end que use una api CRUD. Quiere almacenar los datos en una Base de datos para poder usarlos en la aplicación de front-end
+  
+  Entity Framework Core:
+    Es una solución facil de usar para aplicaciones .NET donde se requiere conservar cambios realizados entre los reinicios de una aplicación.
+
+  EF Core:
+    Es una tecnología de acceso de datos ligera, actua como aislador regional de objetos que:
+    - Permite el trabajo con una base de datos mediante objetos .NET.
+    - Prescindir de la mayor parte de acceso a datos que normalmente es necesario escribir.
+    Admite SQLite, MySQL, PostgreSQL, Oracle y Microsoft SQL Server.
+  
+  El modelo:
+    Un modelo se compone de:
+    - Clases de entidad: Representan entidades del negocio con sus respectivas propiedades.
+    - Objeto de contexto: Permite consultar y guardar datos en las clases de entidad además de administrar la conexión con la base de datos.
+    Estos representan una sesión con la base de datos.
+
+  Operaciones CRUD con EF Core:
+    Al configurar EF Core se comienza a realizar operaciones CRUD en las clases de entidad, depués puede desarrollar en clases de C# delegando operaciones a las clases de contexto. Las consultas siempre se realizan en la base de datos.
+  
+  Uso de proveedor de datos con SQLite
+    Los datos se eliminan cuando se reinicia la aplicación por eso se hará uso de una base de datos.
+    1. Agregar los paquetes NuGet para incluir el proveedor de base de datos.
+    2. Configure la conexión a la base de datos.
+    3. Configure el proveedor de bases de datos en los servicios de ASP.NET Core.
+    4. Realice las migraciones de las bases de datos.
+    
