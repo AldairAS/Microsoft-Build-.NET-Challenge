@@ -1,0 +1,16 @@
+Creación de una aplicación de pila completa mediante React y una API mínima para ASP.NET Core
+  Creación de una aplicación multicapa, frontent con el marco de react y pal backend con .NET 6 y una API mínima.
+  
+  Diseño front end de la aplicación:
+    Saber las funcionalidades de tener la aplicación en frontend
+    - Selección de un marco: como SPA de javascript -> El cliente permanece en la misma página. no se trata de que tenga solo una vista sino que el usuario no pase a otra página.
+    Para el desarrollo de una página SPA se debió definir que la prioridad es la rapidez
+    ¿Qué marco elijo?
+    Debe tener en cuenta que debe ser popular y bien documentado.
+    - Angular:
+    - React:
+    - Vue.js:
+    - Svelte:
+  
+  Diseño de la API:
+    
